@@ -1,0 +1,2 @@
+make ARCH=ppc CROSS_COMPILE=ppc_4xxFP- uImage
+cp ./arch/ppc/boot/images/uImage /home/jwarren/tftpboot/amcc

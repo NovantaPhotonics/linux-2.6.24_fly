@@ -1,0 +1,1 @@
+cmd_arch/ppc/mm/built-in.o :=  ppc_4xxFP-ld -m elf32ppc    -r -o arch/ppc/mm/built-in.o arch/ppc/mm/fault.o arch/ppc/mm/init.o arch/ppc/mm/mem_pieces.o arch/ppc/mm/mmu_context.o arch/ppc/mm/pgtable.o arch/ppc/mm/44x_mmu.o

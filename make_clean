@@ -1,0 +1,1 @@
+make ARCH=ppc CROSS_COMPILE=ppc_4xxFP- clean

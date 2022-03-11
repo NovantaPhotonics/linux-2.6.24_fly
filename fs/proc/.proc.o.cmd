@@ -1,0 +1,1 @@
+cmd_fs/proc/proc.o := ppc_4xxFP-ld -m elf32ppc    -r -o fs/proc/proc.o fs/proc/mmu.o fs/proc/task_mmu.o fs/proc/inode.o fs/proc/root.o fs/proc/base.o fs/proc/generic.o fs/proc/array.o fs/proc/proc_tty.o fs/proc/proc_misc.o fs/proc/proc_sysctl.o fs/proc/proc_net.o fs/proc/kcore.o fs/proc/kmsg.o

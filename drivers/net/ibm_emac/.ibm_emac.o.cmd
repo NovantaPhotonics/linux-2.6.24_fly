@@ -1,0 +1,1 @@
+cmd_drivers/net/ibm_emac/ibm_emac.o := ppc_4xxFP-ld -m elf32ppc    -r -o drivers/net/ibm_emac/ibm_emac.o drivers/net/ibm_emac/ibm_emac_mal.o drivers/net/ibm_emac/ibm_emac_core.o drivers/net/ibm_emac/ibm_emac_phy.o drivers/net/ibm_emac/ibm_emac_zmii.o

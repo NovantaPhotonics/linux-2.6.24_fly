@@ -1,0 +1,1 @@
+cmd_kernel/irq/built-in.o :=  ppc_4xxFP-ld -m elf32ppc    -r -o kernel/irq/built-in.o kernel/irq/handle.o kernel/irq/manage.o kernel/irq/spurious.o kernel/irq/resend.o kernel/irq/chip.o kernel/irq/devres.o kernel/irq/proc.o

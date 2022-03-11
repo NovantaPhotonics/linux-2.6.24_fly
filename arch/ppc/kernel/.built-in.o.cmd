@@ -1,0 +1,1 @@
+cmd_arch/ppc/kernel/built-in.o :=  ppc_4xxFP-ld -m elf32ppc    -r -o arch/ppc/kernel/built-in.o arch/ppc/kernel/entry.o arch/ppc/kernel/traps.o arch/ppc/kernel/time.o arch/ppc/kernel/misc.o arch/ppc/kernel/setup.o arch/ppc/kernel/ppc_htab.o arch/ppc/kernel/ppc_ksyms.o arch/ppc/kernel/pci.o

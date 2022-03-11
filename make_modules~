@@ -1,0 +1,5 @@
+make ARCH=ppc CROSS_COMPILE=ppc_4xxFP- modules
+cp ./drivers/usb/gadget/g_Flyer_usb.ko /home/jwarren/ProcessorEval/AMCC440EP/ppc_4xxFP/lib/modules/2.6.24.2/kernel/drivers/usb/gadget
+cp ./drivers/spi/synrad_spi_link.ko /home/jwarren/ProcessorEval/AMCC440EP/ppc_4xxFP/lib/modules/2.6.24.2/kernel/drivers/spi
+cp ./drivers/usb/gadget/g_Flyer_usb.ko /home/jwarren/ProcessorEval/AMCC440EP/rootfs/lib/modules/2.6.24.2/kernel/drivers/usb/gadget
+cp ./drivers/spi/synrad_spi_link.ko /home/jwarren/ProcessorEval/AMCC440EP/rootfs/lib/modules/2.6.24.2/kernel/drivers/spi

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/g_ether.o := ppc_4xxFP-ld -m elf32ppc    -r -o drivers/usb/gadget/g_ether.o drivers/usb/gadget/usbstring.o drivers/usb/gadget/config.o drivers/usb/gadget/epautoconf.o drivers/usb/gadget/ether.o drivers/usb/gadget/rndis.o

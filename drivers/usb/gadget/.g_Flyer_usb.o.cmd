@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/g_Flyer_usb.o := ppc_4xxFP-ld -m elf32ppc    -r -o drivers/usb/gadget/g_Flyer_usb.o drivers/usb/gadget/Flyer_usb.o drivers/usb/gadget/usbstring.o drivers/usb/gadget/config.o drivers/usb/gadget/epautoconf.o

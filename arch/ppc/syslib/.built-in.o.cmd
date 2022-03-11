@@ -1,0 +1,1 @@
+cmd_arch/ppc/syslib/built-in.o :=  ppc_4xxFP-ld -m elf32ppc    -r -o arch/ppc/syslib/built-in.o arch/ppc/syslib/indirect_pci.o arch/ppc/syslib/ocp.o arch/ppc/syslib/ibm_ocp.o arch/ppc/syslib/ibm44x_common.o arch/ppc/syslib/ibm440gx_common.o arch/ppc/syslib/ppc4xx_pic.o arch/ppc/syslib/pci_auto.o arch/ppc/syslib/todc_time.o

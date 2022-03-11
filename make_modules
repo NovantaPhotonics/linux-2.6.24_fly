@@ -1,0 +1,13 @@
+make ARCH=ppc CROSS_COMPILE=ppc_4xxFP- modules
+cp ./drivers/usb/gadget/g_Flyer_usb.ko /home/mh1/MarkingHeads/amcc/ppc_4xxFP/lib/modules/2.6.24.2/kernel/drivers/usb/gadget
+cp ./drivers/spi/synrad_spi_link.ko /home/mh1/MarkingHeads/amcc/ppc_4xxFP/lib/modules/2.6.24.2/kernel/drivers/spi
+cp ./drivers/char/Flyer_Xilinx.ko /home/mh1/MarkingHeads/amcc/ppc_4xxFP/lib/modules/2.6.24.2/kernel/drivers/char
+cp ./drivers/char/generic_nvram.ko /home/mh1/MarkingHeads/amcc/ppc_4xxFP/lib/modules/2.6.24.2/kernel/drivers/char
+cp ./drivers/usb/gadget/g_Flyer_usb.ko /home/mh1/MarkingHeads/amcc/rootfs/lib/modules/2.6.24.2/kernel/drivers/usb/gadget
+cp ./drivers/spi/synrad_spi_link.ko /home/mh1/MarkingHeads/amcc/rootfs/lib/modules/2.6.24.2/kernel/drivers/spi
+cp ./drivers/char/Flyer_Xilinx.ko /home/mh1/MarkingHeads/amcc/rootfs/lib/modules/2.6.24.2/kernel/drivers/char
+cp ./drivers/char/generic_nvram.ko /home/mh1/MarkingHeads/amcc/rootfs/lib/modules/2.6.24.2/kernel/drivers/char
+cp ./drivers/usb/gadget/g_Flyer_usb.ko /home/mh1/MarkingHeads/amcc/rootfs_f2/lib/modules/2.6.24.2/kernel/drivers/usb/gadget
+cp ./drivers/spi/synrad_spi_link.ko /home/mh1/MarkingHeads/amcc/rootfs_f2/lib/modules/2.6.24.2/kernel/drivers/spi
+cp ./drivers/char/Flyer_Xilinx.ko /home/mh1/MarkingHeads/amcc/rootfs_f2/lib/modules/2.6.24.2/kernel/drivers/char
+cp ./drivers/char/generic_nvram.ko /home/mh1/MarkingHeads/amcc/rootfs_f2/lib/modules/2.6.24.2/kernel/drivers/char
